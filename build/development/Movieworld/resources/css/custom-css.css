@@ -1,0 +1,642 @@
+/*
+    Document   : styles.css
+    Created on : 08-Jun-2010, 21:15:19
+    Author     : J.vd.Merwe
+    Description:
+
+*/
+/* Extra padding on the detail info panel */
+.DetailInfo .x-panel-body {
+  padding: 20px !important;
+}
+/*------------------------------
+Hack to make this work in IE (8 at least)
+(framed header collapses at a height of n+4)
+--------------------------------*/
+.x-ie .y-title-panel .x-panel-header-body {
+  height: 28px;
+}
+/* this is a need-to-know !!! it's for the wordwrap in a cell of a table */
+.x-grid3-col-license {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+.x-grid3-cell-inner,
+.x-grid3-hd-inner {
+  white-space: normal;
+  /* changed from nowrap */
+}
+/*  this is to support the xlarge and xxl buttons  */
+.x-btn-noicon .x-btn-xlarge .x-btn-text {
+  height: 48px;
+}
+.x-btn-noicon .x-btn-xxlarge .x-btn-text {
+  height: 64px;
+}
+.x-btn-icon .x-btn-xlarge .x-btn-text {
+  height: 48px;
+  width: 48px;
+}
+.x-btn-icon .x-btn-xxlarge .x-btn-text {
+  height: 64px;
+  width: 64px;
+}
+.x-btn-text-icon .x-btn-icon-xlarge-left .x-btn-text {
+  background: no-repeat 0 center;
+  padding-left: 42px;
+  height: 48px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-left .x-btn-text {
+  background: no-repeat 0 center;
+  padding-left: 58px;
+  height: 64px;
+}
+.x-btn-text-icon .x-btn-icon-xlarge-right .x-btn-text {
+  background: no-repeat right center;
+  padding-right: 50px;
+  height: 48px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-right .x-btn-text {
+  background: no-repeat right center;
+  padding-right: 66px;
+  height: 64px;
+}
+.x-btn-text-icon .x-btn-icon-xlarge-bottom .x-btn-text {
+  background: no-repeat center bottom;
+  padding-bottom: 48px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-bottom .x-btn-text {
+  background: no-repeat center bottom;
+  padding-bottom: 64px;
+}
+.x-btn-text-icon .x-btn-icon-xlarge-top .x-btn-text {
+  background: no-repeat center 0;
+  padding-top: 50px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-top .x-btn-text {
+  background: no-repeat center 0;
+  padding-top: 64px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-top .x-btn-text,
+.x-btn-text-icon .x-btn-icon-xlarge-top .x-btn-text,
+.x-btn-text-icon .x-btn-icon-large-top .x-btn-text,
+.x-btn-text-icon .x-btn-icon-medium-top .x-btn-text,
+.x-btn-text-icon .x-btn-icon-small-top .x-btn-text {
+  width: 95% !important;
+}
+/* updated cells */
+.y-grid3-updated-cell {
+  background: transparent no-repeat 0 0;
+}
+.y-grid3-updated-cell {
+  background-image: url('../img/updated.gif');
+}
+/* updated cells */
+.y-grid3-error-cell {
+  background: transparent no-repeat 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.y-grid3-error-cell {
+  background-image: url('../img/error.gif');
+}
+/* booked seminars cells */
+.y-grid3-booked-cell {
+  background: transparent no-repeat 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.x-toolbar.y-viewport {
+  /* background-color : #DEE6F1 !important; */
+  background-image: none !important;
+  border-style: none !important;
+}
+/* Extjs Adjustment CSS for inner cell grids */
+.x-grid-cell-inner {
+  overflow: visible !important;
+  white-space: normal !important;
+}
+/* images in the download toolbar */
+.image-holder {
+  width: auto;
+  display: inline-block;
+}
+.image-holder img {
+  max-height: 68px;
+  min-height: 68px;
+  width: auto;
+}
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  letter-spacing: normal;
+}
+.gray {
+  color: #9f9e9e;
+}
+.width-10 {
+  width: 10px;
+}
+/* credits */
+.credits.front .x-panel-body {
+  background: url('../img/credits_700.jpg') !important;
+}
+.credits.wrap {
+  position: absolute;
+  bottom: 20px;
+  left: 26px;
+  font-size: 13px;
+  color: #e1e1e1;
+}
+.credits.url,
+.credits.url a:link,
+.credits.url a:hover,
+.credits.url a:visited,
+.credits.url a:active {
+  text-decoration: none;
+  color: #e1e1e1;
+}
+.credits_legal.wrap {
+  font-size: 14px;
+  padding: 20px;
+}
+.credits_legal p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.credits.logo {
+  float: right;
+  right: 10px;
+}
+/* the wrapper */
+.mediaview.panel,
+.dataview.panel {
+  position: relative;
+}
+.mediaview.wrap,
+.dataview.wrap {
+  position: relative;
+  display: block;
+  height: auto;
+}
+.dataview.item {
+  /* width: 23%; */
+}
+.mediaview .bordered,
+.dataview .bordered {
+  border: 1px solid #666666;
+}
+.mediaview .bordered,
+.dataview .margin-5 {
+  margin: 5px;
+}
+.mediaview.item,
+.dataview.item {
+  overflow: hidden;
+  cursor: pointer;
+}
+.dataview.left {
+  position: relative;
+  float: left;
+}
+.dataview.thumb {
+  position: relative;
+  float: left;
+  height: 125px;
+  max-width: 83px !important;
+}
+.dataview.right {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  width: 62%;
+}
+.dataview.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.dataview.release_date {
+  font-size: 13px;
+}
+.dataview.rate {
+  position: absolute;
+  top: 90px;
+  font-size: 13px;
+}
+.dataview.rate .score {
+  background-color: #2E7D32;
+  color: #e1e1e1;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
+}
+.dataview.rate img {
+  max-width: 10px;
+}
+.dataview.item.small {
+  /* smaller resolution */
+  margin: 10px -25px 0px 0px !important;
+}
+.dataview.title.small {
+  width: 100px;
+  font-size: 9px;
+}
+/* media dataview */
+.mediaview.item {
+  /* max-width: 220px; */
+}
+.mediaview.image-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.mediaview.image-wrap img {
+  width: 100%;
+}
+.mediaview.wrap.backdrops .image-wrap {
+  max-height: 140px;
+}
+.mediaview.wrap.posters .image-wrap {
+  max-height: 250px;
+}
+.mediaview.wrap.profiles .image-wrap {
+  max-height: 250px;
+}
+.mediaview.name {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.mediaview.statistics {
+  padding: 5px;
+}
+.mediaview .media-meta {
+  font-size: 12px;
+}
+.mediaview .media-meta .inverse {
+  background: #2E7D32;
+  padding: 1px 5px 1px 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 5px;
+  color: #e1e1e1;
+}
+/* Search Grid  & Results Grid */
+.results.wrap {
+  float: left;
+  margin-left: 5px;
+  width: 60%;
+}
+.results.item.res-very-low,
+.results.item.res-low,
+.results.item.res-high {
+  height: 100%;
+}
+.results.item .thumb {
+  width: 64px !important;
+  float: left;
+}
+.results.item.res-low .thumb,
+.results.item.res-very-low .thumb {
+  width: 50px !important;
+}
+.results.item .name,
+.results.item .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 2px 0px 5px 0px;
+}
+.results.item .character {
+  font-size: 14px;
+}
+.results.item.res-very-low .released,
+.results.item.res-low .released,
+.results.item.res-very-low .character .results.item.res-low .character {
+  font-size: 13px;
+}
+/* Detail Panel (Person) */
+.person_wrap {
+  padding: 20px;
+}
+.person_wrap .image-wrap {
+  padding: 0 20px 0 0;
+}
+.person_wrap .image-wrap img {
+  max-width: 100%;
+  position: relative;
+}
+.detail_wrap_right .title,
+.person_wrap .title {
+  font-size: 21px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+/* Detail Panel (Movie + Tv + Person) */
+.detail_wrap_left {
+  padding-right: 30px;
+}
+.person_wrap .header,
+.detail_wrap_right .header,
+.detail_wrap_left .header {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.detail_wrap_left .data-header {
+  clear: both;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.detail_wrap_left .data-field {
+  font-size: 14px;
+  padding-left: 30px;
+}
+.detail_wrap_left ul.data-field {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+.detail_wrap_left ul.data-field li {
+  float: left;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e1e1e1;
+  background-color: #2E7D32;
+  padding: 5px 10px 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.detail_wrap_right .image-wrap {
+  max-width: 250px;
+  overflow: hidden;
+  float: left;
+  padding: 0 20px 0 0;
+}
+.detail_wrap_right .image-wrap img {
+  max-width: 100%;
+  position: relative;
+}
+.person_wrap .data-field,
+.detail_wrap_right .data-field {
+  line-height: 25px;
+  font-size: 14px;
+}
+.movie_list li {
+  display: inline;
+  margin-right: 8px;
+}
+/* history panel */
+.history.thumb {
+  width: 32px;
+  heigth: 32px;
+  background: 30% 30%;
+}
+/* Workpanel Grid (movies */
+.work.movie.thumb {
+  width: 64px !important;
+  float: left;
+}
+.work.movie.wrap {
+  float: left;
+  margin-left: 5px;
+  width: 60%;
+}
+.work.movie.name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0px 5px 0px;
+  color: #e1e1e1;
+}
+.work.movie.character {
+  font-size: 14px;
+}
+.work.movie.released {
+  margin-top: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+/* Workpanel Grid (person) */
+.work.person.thumb {
+  width: 64px !important;
+  float: left;
+}
+.work.person.wrap {
+  float: left;
+  margin-left: 5px;
+  width: 60%;
+}
+.work.person.name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0px 5px 0px;
+  color: #e1e1e1;
+}
+.right.vote {
+  width: 220px !important;
+}
+/* Season Episodes Grid */
+.seasons.wrap {
+  margin: 0 10px 0 10px;
+}
+.seasons.wrap.hidden {
+  display: none;
+}
+.seasons.grid img {
+  border: 2px solid #ccc !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+.seasons .name {
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+/* Seasons Info panel */
+.tv-info.wrap {
+  padding: 10px;
+  height: 100%;
+  /* background-color: @light-bg-color; */
+}
+.tv-info .thumb {
+  max-height: 75px;
+}
+.tv-info .vote img {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.tv-info .info {
+  margin-left: 20px;
+}
+.tv-info .info-2 {
+  margin-left: 20px;
+}
+.tv-info .title {
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 0px;
+}
+.tv-info .vote {
+  width: 220px !important;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.tv-info .data-field,
+.tv-info .vote_count {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.tv-info .data-field.country img {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0px;
+}
+/* Release Info Window */
+.release-info .thumb {
+  float: left;
+  max-height: 92px;
+}
+.release-info .wrap {
+  float: left;
+  margin-left: 10px;
+}
+.release-info .released {
+  padding-top: 5px;
+  font-size: 13px;
+  font-style: italic;
+}
+/*
+    Document   : app_buttons
+    Created on : 08-Jun-2010, 12:02:57
+    Author     : J.vd.Merwe
+    Description:
+*/
+.sencha_s {
+  background-image: url('../img/icons/sencha_16.png') !important;
+}
+.sencha_m {
+  background-image: url('../img/icons/sencha_32.png') !important;
+}
+.sencha_xl {
+  background-image: url('../img/icons/sencha_64.png') !important;
+}
+.enovision {
+  background-image: url('../img/icons/enovision.png') !important;
+}
+.calendar {
+  background-image: url('../img/icons/calendar.png') !important;
+}
+.star {
+  background-image: url('../img/icons/fugue/star.png') !important;
+}
+.tvdb {
+  background-image: url('../img/icons/tvdb.png') !important;
+}
+.tmdb {
+  background-image: url('../img/icons/tmdb.png') !important;
+}
+.imdb {
+  background-image: url('../img/icons/imdb_icon.jpg') !important;
+}
+.movie_s {
+  background-image: url('../img/icons/fugue/films.png') !important;
+}
+.person_s {
+  background-image: url('../img/icons/user.png') !important;
+}
+.popcorn_s {
+  background-image: url('../img/icons/popcorn-icon.png') !important;
+}
+.credits_s {
+  background-image: url('../img/icons/fugue/clapperboard.png') !important;
+}
+.breads_s {
+  background-image: url('../img/icons/fugue/breads.png') !important;
+}
+.film {
+  background-image: url('../img/icons/fugue/film.png') !important;
+}
+.film-cast {
+  background-image: url('../img/icons/fugue/film-cast.png') !important;
+}
+.image {
+  background-image: url('../img/icons/fugue/image.png') !important;
+}
+.pictures {
+  background-image: url('../img/icons/fugue/pictures.png') !important;
+}
+.photo-album {
+  background-image: url('../img/icons/fugue/photo-album.png') !important;
+}
+.website {
+  background-image: url('../img/icons/fugue/globe.png') !important;
+}
+.asc_s {
+  background-image: url('../img/icons/fugue/sort-alphabet.png') !important;
+}
+.desc_s {
+  background-image: url('../img/icons/fugue/sort-alphabet-descending.png') !important;
+}
+.movie_reel {
+  background-image: url('../img/icons/movie_reel.png') !important;
+}
+.television_32 {
+  background-image: url('../img/icons/television_32.png') !important;
+}
+.television {
+  background-image: url('../img/icons/television.png') !important;
+}
+.workers {
+  background-image: url('../img/icons/fugue/users.png') !important;
+}
+.log {
+  background-image: url('../img/icons/fugue/documents-stack.png') !important;
+}
+.credit {
+  background-image: url('../img/icons/fugue/cake.png') !important;
+}
+.download {
+  background-image: url('../img/icons/fugue/download.png') !important;
+}
+.hide {
+  background-image: url('../img/icons/fugue/arrow-stop-090.png') !important;
+}
+.collapse {
+  background-image: url('../img/icons/fugue/arrow-stop-090.png') !important;
+}
+.eye {
+  background-image: url('../img/icons/fugue/eye.png') !important;
+}
+.youtube {
+  background-image: url('../img/icons/youtube-icon.png') !important;
+}
+.quicktime {
+  background-image: url('../img/icons/quicktime.jpg') !important;
+}
+.vimeo {
+  background-image: url('../img/icons/vimeo.jpg') !important;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(226, 226, 226, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Movieworld",
+  "version": "1.0.0.0",
+  "indexHtmlPath": "index.html",
+  "framework": "ext",
+  "toolkit": "classic",
+  "theme": "theme-movieworld",
+
+  "classpath": [
+    "app"
+  ],
+  "overrides": [
+    "overrides"
+  ],
+
+  "requires": [
+    "ux",
+    "fontastic-icons",
+    "movieworld-icons",
+    "ext-lightbox",
+    "ext-videoplayer",
+    "ext-tip-toast"
+  ],
+  "fashion": {
+    "inliner": {
+      "enable": false
+    }
+  },
+  "sass": {
+    "namespace": "Movieworld",
+    "etc": [
+      "sass/etc/all.scss"
+    ],
+    "var": [
+      "sass/var/all.scss",
+      "sass/var"
+    ],
+    "src": [
+      "sass/src"
+    ]
+  },
+  "js": [
+    {
+      "path": "app.js",
+      "bundle": true
+    }
+  ],
+  "css": [
+    {
+      "path": "${build.out.css.path}",
+      "bundle": true,
+      "exclude": [
+        "fashion"
+      ]
+    },
+    {
+      "path": "${workspace.dir}/resources/ext/classic/css/loading-mask.css",
+      "bundle": false,
+      "exclude": [
+        "fashion"
+      ]
+    }
+  ],
+  "loader": {
+    "cache": false,
+    "cacheParam": "_dc"
+  },
+  "production": {
+    "output": {
+      "appCache": {
+        "enable": true,
+        "path": "cache.appcache"
+      }
+    },
+    "loader": {
+      "cache": "${build.timestamp}"
+    },
+    "cache": {
+      "enable": true
+    },
+    "compressor": {
+      "type": "yui"
+    }
+  },
+  "testing": {},
+  "development": {
+    "watch": {
+      "delay": 250
+    },
+    "tags": [
+      "fashion"
+    ]
+  },
+  "bootstrap": {
+    "base": "${app.dir}",
+    "manifest": "${build.id}.json",
+    "microloader": "bootstrap.js",
+    "css": "bootstrap.css"
+  },
+  "output": {
+    "base": "${workspace.build.dir}/${build.environment}/${app.name}",
+    "appCache": {
+      "enable": false
+    }
+  },
+  "cache": {
+    "enable": false,
+    "deltas": true
+  },
+  "appCache": {
+    "cache": [
+      "index.html"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "archivePath": "archive",
+  "slicer": {
+    "js": [
+      {
+        "path": "sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ],
+    "output": {
+      "appCache": {
+        "enable": false
+      }
+    },
+    "cache": {
+      "enable": false
+    }
+  },
+  "ignore": [
+    "(^|/)CVS(/?$|/.*?$)"
+  ],
+  "id": "eae4687d-a117-45e2-92b1-3627cf9a1ce9"
+}

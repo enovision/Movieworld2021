@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+
+    <title>Enovision Movieworld</title>
+
+    <link href="/resources/img/favicon.ico" rel="icon" type="image/x-icon"/>
+
+    <!-- <link rel="stylesheet" href="/resources/css/custom-css.min.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/ux/Ext.ux.Buttons.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/ux/Ext.ux.SlideMessage.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/ux/videojs/css/videojs.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/javascript/fancybox-2.1.5/source/jquery.fancybox.css"> -->
+    <!-- <link rel="stylesheet" href="/resources/javascript/video-js/video-js.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/resources/javascript/raty/js/jquery.raty.min.js"></script>
+
+    <!-- <script type="text/javascript" src="/resources/javascript/fancybox-2.1.5/source/jquery.fancybox.pack.js"></script> -->
+
+    <!--<script src="/resources/javascript/video-js.4.12.5/video.js"></script>
+    <script src="/resources/javascript/video-js.4.12.5/plugins/videojs-youtube/dist/youtube.min.js"></script>
+    <script src="/resources/javascript/video-js.4.12.5/plugins/videojs-vimeo/dist/media.vimeo.min.js"></script>
+    <script>
+        videojs.options.flash.swf = "/resources/javascript/video-js/video-js.swf";
+    </script> -->
+
+    <style>
+        /* Loading Mask, when program starts */
+
+        #loading-mask {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 20000;
+        }
+
+        #loading {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            padding: 2px;
+            z-index: 20001;
+            margin: -176px 0 0 -313px;
+        }
+
+        #loading .loading-indicator {
+            padding: 176px 313px;
+            background: url('./resources/img/credits.jpg') no-repeat;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var Ext = Ext || {}; // Ext namespace won't be defined yet...
+
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
+        //
+        Ext.beforeLoad = function (tags) {
+            var s = location.search,  // the query string (ex "?foo=1&bar")
+                profile;
+
+            // For testing look for "?classic" or "?modern" in the URL to override
+            // device detection default.
+            //
+            if (s.match(/\bclassic\b/)) {
+                profile = 'classic';
+            }
+            else if (s.match(/\bmodern\b/)) {
+                profile = 'modern';
+            }
+            else {
+                profile = tags.desktop ? 'classic' : 'modern';
+                //profile = tags.phone ? 'modern' : 'classic';
+            }
+
+            Ext.manifest = profile; // this name must match a build profile name
+
+            // This function is called once the manifest is available but before
+            // any data is pulled from it.
+            //
+            //return function (manifest) {
+            // peek at / modify the manifest object
+            //};
+        };
+    </script>
+
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="eae4687d-a117-45e2-92b1-3627cf9a1ce9" type="text/javascript"
+            src="bootstrap.js"></script>
+
+</head>
+<body style="background:#4d4d4d;">
+<!-- Loading Mask -->
+<div id="loading">
+    <img src="./resources/img/credits.jpg"></img>
+</div>
+<div id="movieworld-lightbox" class="basicLightbox__placeholder"></div>
+</body>
+</html>

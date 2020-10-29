@@ -1,0 +1,15 @@
+{
+  "apps": [
+    "apps/Movieworld"
+  ],
+  "frameworks": {
+    "ext": "node_modules/@sencha/ext"
+  },
+  "build": {
+    "dir": "${workspace.dir}/build"
+  },
+  "packages": {
+    "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages,${workspace.dir}/node_modules/@sencha",
+    "extract": "${workspace.dir}/packages/remote,${workspace.dir}/node_modules/@sencha"
+  }
+}

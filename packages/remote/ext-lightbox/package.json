@@ -1,0 +1,82 @@
+{
+  "name": "ext-lightbox",
+  "namespace": "Ext.lightbox",
+  "format": "1",
+  "version": "1.0.1",
+  "creator": "enovision",
+  "summary": "Javascript only lightbox for Ext JS",
+  "detailedDescription": "Javascript only lightbox for Ext JS",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "enovision",
+      "uuid": "27d42145-5f9b-4f3d-aea5-0664ce5e4595",
+      "created": "2018-04-09T09:09:51Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "xwPRLoBevvE\u003d",
+      "signature": "O2IMwSFCQf6VjjEVbzyMcezaowgtVuJFx9W4KXNQ8JOmc6nsXXtITPPeI2HqKIFp0MBOTXrU4j1qll+6NScrTdZXnTfaBPxvjMuT4CWnghHa1yhXpkWiVIgWwu9UrJ9Szz1j7v3GJTp1f7ozNzYIvuhFeclMTcE/2Pvr3DolUBJ3Q3MQS4scCdlTBn/0TYmoNtWYQHn5/L9GIdsrb91fwjMInAeCZyyVJ3D+nQ+Q1NdV2MUQl4P13ZUFm32HcuzeHOSqr/iQrsftZZ1YC6kL0xRWm897C/yH2nAHYU6rJ//rsjQeeCtr08FCfGe5KRARUI1CVCamotujp3Mz+A6JKA\u003d\u003d"
+    }
+  ],
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "theme": "ext-theme-classic",
+  "framework": "ext",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "Ext.lightbox",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides"
+  ],
+  "production": {
+    "js": [
+      {
+        "path": "resources/ext-lightbox/basicLightbox/dist/basicLightbox.min.js",
+        "remote": true
+      }
+    ],
+    "css": [
+      {
+        "path": "resources/ext-lightbox/basicLightbox/dist/basicLightbox.min.css",
+        "remote": true
+      }
+    ]
+  },
+  "development": {
+    "js": [
+      {
+        "path": "resources/basicLightbox/dist/basicLightbox.min.js"
+      }
+    ],
+    "css": [
+      {
+        "path": "resources/basicLightbox/dist/basicLightbox.min.css"
+      }
+    ]
+  }
+}

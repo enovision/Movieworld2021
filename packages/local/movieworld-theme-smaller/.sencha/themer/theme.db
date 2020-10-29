@@ -1,0 +1,69 @@
+{
+  "settings": [
+    {
+      "name": "toolkit",
+      "value": "classic",
+      "id": "4014790b-90cb-4958-aac1-f4c739c60fdc"
+    }
+  ],
+  "fonts": [],
+  "palette": [
+    {
+      "variable": "base_color",
+      "displayName": "Base Color",
+      "order": 0,
+      "r": 69,
+      "g": 90,
+      "b": 100,
+      "a": 1,
+      "h": 0.553763440860215,
+      "s": 0.31000000000000005,
+      "v": 0.39215686274509803,
+      "id": "2f1b7dfa-0de1-4801-a24a-2d5c8074eb1b",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Base Color</b><br/>#455A64",
+      "rgba": "rgba(69, 90, 100, 1)",
+      "hex": "#455A64"
+    },
+    {
+      "variable": "body_background_color",
+      "displayName": "Body Background Color",
+      "order": 1,
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1,
+      "h": 0,
+      "s": 0,
+      "v": 1,
+      "id": "59fc3c20-b1ae-436a-a397-85bae616a103",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Body Background Color</b><br/>#FFFFFF",
+      "rgba": "rgba(255, 255, 255, 1)",
+      "hex": "#FFFFFF"
+    },
+    {
+      "variable": "color",
+      "displayName": "Default Font Color",
+      "order": 2,
+      "r": 64,
+      "g": 64,
+      "b": 64,
+      "a": 1,
+      "h": 0,
+      "s": 0,
+      "v": 0.25098039215686274,
+      "id": "7579bd3a-a6cb-4284-bd9b-cf710268f072",
+      "transparent": false,
+      "sass": "",
+      "base": true,
+      "tooltip": "<b>Default Font Color</b><br/>#404040",
+      "rgba": "rgba(64, 64, 64, 1)",
+      "hex": "#404040"
+    }
+  ]
+}

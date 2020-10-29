@@ -1,0 +1,69 @@
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:3 */
+.vsj-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:12 */
+.videojspanel .vjs-text-track-display {
+    /* Text Track Styles */
+    /* Overall track holder for both captions and subtitles */
+    text-align: center;
+    position: absolute;
+    bottom: 4em;
+    /* Leave padding on left and right */
+    left: 1em;
+    right: 1em;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:22 */
+.videojspanel .vjs-text-track {
+    /* Individual tracks */
+    display: none;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: -1.5em;
+    /* Transparent black background, or fallback to all black (oldIE) */
+    /* background-color-with-alpha */
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:33 */
+.videojspanel .vjs-subtitles {
+    /* Subtitles are white */
+    color: #fff;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:36 */
+.videojspanel .vjs-captions {
+    /* Captions are yellow */
+    color: #fc6;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:41 */
+.vjs-default-skin.vjs-fullscreen .vjs-subtitles.vjs-text-track {
+    /* small correction on the videojs css */
+    font-size: 4em !important;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:45 */
+.vjs-default-skin.vjs-fullscreen .vjs-text-track {
+    margin-bottom: 0em !important;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:49 */
+.vjs-not-supported {
+    z-index: 10000;
+    position: absolute;
+    background: #ccc;
+    color: #fff;
+    margin: 20%;
+    width: 60%;
+    padding: 20px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:60 */
+.vjs-default-skin .vjs-big-play-button {
+    /* hide the Videojs default big play button */
+    display: none;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/sencha.packages/packages/local/ext-videoplayer/sass/etc/all.scss:65 */
+.videojspanel .video-js.vjs-ended .vjs-poster {
+    /* show poster at ended (not working !) */
+    display: block;
+}

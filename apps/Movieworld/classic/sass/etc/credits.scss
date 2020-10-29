@@ -1,0 +1,39 @@
+@import 'movieworld-variables';
+
+/* credits */
+.credits.front .x-panel-body {
+  background : url('/resources/img/credits_700.jpg') !important;
+}
+
+.credits.wrap {
+    position: absolute;
+    bottom: 4px;
+    left: 26px;
+    font-size: 13px;
+    color: $base-color;
+    line-height: 17px;
+}
+
+.credits.url,
+.credits.url a:link,
+.credits.url a:hover,
+.credits.url a:visited,
+.credits.url a:active {
+  text-decoration : none;
+  color : $base-color;
+}
+
+.credits_legal.wrap {
+  font-size : $dataview-medium-font-size;
+  padding: 20px;
+}
+
+.credits_legal p {
+  margin-top : 10px;
+  margin-bottom : 10px;
+}
+
+.credits.logo {
+  float : right;
+  right : 10px;
+}

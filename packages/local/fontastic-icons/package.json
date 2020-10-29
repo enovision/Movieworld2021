@@ -1,0 +1,30 @@
+{
+  "name": "fontastic-icons",
+  "namespace": "Ext",
+  "type": "code",
+  "framework": "ext",
+  "creator": "Fontastic",
+  "summary": "Package to stall your own collection of Fontastic.me fonts",
+  "detailedDescription": "Package to stall your own collection of Fontastic.me fonts",
+  "version": "6.2.1.167",
+  "compatVersion": "4.3.0",
+  "format": "1",
+  "output": "${framework.dir}/build/packages/${package.name}",
+  "local": true,
+  "css": [
+    {
+      path: "${package.dir}/resources/styles.min.css"
+    }
+  ],
+  "sass": {
+    "namespace": "Ext",
+    "etc": "${package.dir}/sass/etc/all.scss",
+    "var": "${package.dir}/sass/var",
+    "src": [
+      "${package.dir}/sass/src",
+      "${package.dir}/sass/src/all.scss"
+    ]
+  },
+  "classpath": "${package.dir}/src",
+  "overrides": "${package.dir}/overrides"
+}

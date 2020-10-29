@@ -1,0 +1,118 @@
+$mediaview-bg-color: $body-background-color;
+$mediaview-bg-border: $base-dark-color;
+$mediaview-score-color: #fff;
+$mediaview-border-color: #666666;
+$mediaview-score-bg-color: #00ae50;
+
+
+.mediaview.panel,.dataview.panel {
+    position: relative
+}
+
+.mediaview.wrap,.dataview.wrap {
+    position: relative;
+    display: block;
+    height: auto
+}
+
+.mediaview .bordered,.dataview .bordered {
+    border: 1px solid $mediaview-border-color;
+}
+
+.mediaview .bordered,.dataview .margin-5 {
+    margin: 5px
+}
+
+.mediaview.item,.dataview.item {
+    overflow: hidden;
+    cursor: pointer
+}
+
+.dataview.meta {
+  padding-left: 5px;
+}
+
+.dataview.thumb {
+    max-height: 125px !important;
+    width: auto !important
+}
+
+.dataview.title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px
+}
+
+.dataview.release_date {
+    font-size: $dataview-small-font-size;
+}
+
+.dataview.rate {
+    position: absolute;
+    bottom: 10px;
+    font-size: $dataview-small-font-size;
+}
+
+.dataview.rate .score {
+    background-color: $mediaview-score-bg-color;
+    color: $mediaview-score-color;
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px
+}
+
+.dataview.rate img {
+    max-width: 10px
+}
+
+.dataview.item.small {
+    margin: 10px -25px 0 0 !important
+}
+
+.dataview.title.small {
+    width: 100px;
+    font-size: 9px
+}
+
+.mediaview.image-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.mediaview.image-wrap img {
+    width: 100%
+}
+
+.mediaview.wrap.backdrops .image-wrap {
+    max-height: 140px
+}
+
+.mediaview.wrap.posters .image-wrap {
+    max-height: 350px
+}
+
+.mediaview.wrap.profiles .image-wrap {
+    max-height: 350px
+}
+
+.mediaview.name {
+    margin-top: 5px;
+    font-size: $dataview-medium-font-size;
+    font-weight: bold
+}
+
+.mediaview.statistics {
+    padding: 5px
+}
+
+.mediaview .media-meta {
+    font-size: 12px
+}
+
+.mediaview .media-meta .inverse {
+    background: #2e7d32;
+    padding: 1px 5px 1px 5px;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    color: #e1e1e1
+}

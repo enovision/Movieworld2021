@@ -1,0 +1,165 @@
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:1 */
+#tip-toast-msg-div {
+    position: absolute;
+    z-index: 20000;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:8 */
+.top#tip-toast-msg-div {
+    /* Direction (top, bottom) */
+    top: 10px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:12 */
+.bottom#tip-toast-msg-div {
+    bottom: 10px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:18 */
+.size-sm#tip-toast-msg-div {
+    /* Size (lg, sm, default) */
+    width: 300px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:22 */
+.size-default#tip-toast-msg-div {
+    width: 400px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:26 */
+.size-lg#tip-toast-msg-div {
+    width: 500px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:32 */
+.pos-left#tip-toast-msg-div {
+    /* Position (right, default, left) */
+    left: 10px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:36 */
+.pos-right#tip-toast-msg-div {
+    right: 10px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:40 */
+.pos-default.size-sm#tip-toast-msg-div {
+    margin-left: -150px;
+    left: 50%;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:45 */
+.pos-default.size-lg#tip-toast-msg-div {
+    margin-left: -250px;
+    left: 50%;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:50 */
+.pos-default.size-default#tip-toast-msg-div {
+    margin-left: -200px;
+    left: 50%;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:57 */
+.tip-toast.msg {
+    /* Toast Message */
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #f5f5f5;
+    border: 2px solid #e6e6e6;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #666;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:67 */
+.tip-toast.msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:73 */
+.tip-toast.msg p {
+    margin: 0;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:77 */
+.tip-toast.msg hr {
+    border-top-color: #ccc;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:81 */
+.tip-toast.danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:87 */
+.tip-toast.danger hr {
+    border-top-color: #e4b9c0;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:91 */
+.tip-toast.danger .link {
+    color: #843534;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:95 */
+.tip-toast.info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:101 */
+.tip-toast.info hr {
+    border-top-color: #a6e1ec;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:105 */
+.tip-toast.info .link {
+    color: #245269;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:109 */
+.tip-toast.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:115 */
+.tip-toast.success hr {
+    border-top-color: #c9e2b3;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:119 */
+.tip-toast.success .link {
+    color: #2b542c;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:123 */
+.tip-toast.warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:129 */
+.tip-toast.warning hr {
+    border-top-color: #f7e1b5;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:133 */
+.tip-toast.warning .link {
+    color: #66512c;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:139 */
+.tip-toast .tip-toast-close-btn-hidden {
+    /* Close Button */
+    display: none;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:143 */
+.tip-toast .close {
+    float: right;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: opacity=20;
+    opacity: 0.2;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:154 */
+.tip-toast.close:hover,
+.tip-toast.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: opacity=50;
+    opacity: 0.5;
+}
+/* /mnt/nas/evserver02/SourceVault/enovision.github/enovision.github.io/packages/local/ext-tip-toast/sass/src/all.scss:162 */
+.tip-toast btn.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}

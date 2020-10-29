@@ -1,0 +1,67 @@
+/* From Bootstrap */
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary: darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success: #5cb85c !default;
+$brand-info: #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger: #d9534f !default;
+
+$state-success-text: #3c763d !default;
+$state-success-bg: #dff0d8 !default;
+$state-success-border: darken(adjust-hue($state-success-bg, -10), 5%) !default;
+
+$state-info-text: #31708f !default;
+$state-info-bg: #d9edf7 !default;
+$state-info-border: darken(adjust-hue($state-info-bg, -10), 7%) !default;
+
+$state-warning-text: #8a6d3b !default;
+$state-warning-bg: #fcf8e3 !default;
+$state-warning-border: darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+
+$state-danger-text: #a94442 !default;
+$state-danger-bg: #f2dede !default;
+$state-danger-border: darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+
+/* Used in this package */
+
+$tiptoast_width: 400px;
+$tiptoast_width_sm: 300px;
+$tiptoast_width_lg: 500px;
+
+$tiptoast_h3_font_size: 15px;
+
+$tiptoast_color: lighten($gray-base, 40%) !default;
+$tiptoast_bg_color: lighten($gray-base, 96%) !default;
+$tiptoast_border_color: lighten($gray-base, 90%) !default;
+$tiptoast_hr_border_top_color: #cccccc;
+$tiptoast_link_color: $brand-primary;
+
+$tiptoast_danger_color: $state-danger-text !default;
+$tiptoast_danger_bg_color: $state-danger-bg !default;
+$tiptoast_danger_border_color: $state-danger-border !default;
+$tiptoast_danger_hr_border_top_color: #e4b9c0;
+$tiptoast_danger_link_color: #843534;
+
+$tiptoast_info_color: $state-info-text !default;
+$tiptoast_info_bg_color: $state-info-bg !default;
+$tiptoast_info_border_color: $state-info-border !default;
+$tiptoast_info_hr_border_top_color: #a6e1ec;
+$tiptoast_info_link_color: #245269;
+
+$tiptoast_success_color: $state-success-text !default;
+$tiptoast_success_bg_color: $state-success-bg !default;
+$tiptoast_success_border_color: $state-success-border !default;
+$tiptoast_success_hr_border_top_color: #c9e2b3;
+$tiptoast_success_link_color: #2b542c;
+
+$tiptoast_warning_color: $state-warning-text !default;
+$tiptoast_warning_bg_color: $state-warning-bg !default;
+$tiptoast_warning_border_color: $state-warning-border !default;
+$tiptoast_warning_hr_border_top_color: #f7e1b5;
+$tiptoast_warning_link_color: #66512c;

@@ -1,0 +1,51 @@
+{
+  "name": "ext-tip-toast",
+  "namespace": "TipToast",
+  "format": "1",
+  "version": "1.0.2",
+  "compatVersion": "1.0.0",
+  "creator": "enovision",
+  "summary": "Tiptoast Slide Message",
+  "detailedDescription": "Tiptoast Slide Message",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "enovision",
+      "uuid": "27d42145-5f9b-4f3d-aea5-0664ce5e4595",
+      "created": "2017-11-13T19:32:09Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "nJLQ0vktDaw\u003d",
+      "signature": "DPy16XWJShf3XKydvQJY/H8AUId0dPmzsTRkiMYy23HSky1T7+7cR49iMsSP4y6n2W1WoTf6AXNlX/leSt4//fDAaGVAT5us6QrSZFzh+9atYq718xI3wzRQnGl9Y3mKRYlwlZkQOswFOs0/qMINnLe+aWuvVS5f4t2/C7gtvAmKmWf4I3yGuEXcsbGUt5odCW61yEpISiKNmycn3mOZs6IbIiFCkCvFJYs206nw+Bh2Op+L+Yp4upA26tcUs52Mi8qen5upns04V1FnWXgd3TU2PRxoH6Nu1zDE95xLVtMGc0QKN0mzFLJaPMibfjZF4PwnCHL7m6IgftrU2bt4kQ\u003d\u003d"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "theme": "ext-theme-classic",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "TipToast",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var/all.scss"
+    ],
+    "src": [
+      "${package.dir}/sass/src/all.scss"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides"
+  ],
+  "framework": "ext"
+}

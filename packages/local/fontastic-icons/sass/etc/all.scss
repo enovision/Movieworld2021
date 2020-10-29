@@ -1,0 +1,12 @@
+$fontastic-font-path: get-resource-path('fonts');
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("#{$fontastic-font-path}/untitled-font-1.eot");
+  src:url("#{$fontastic-font-path}/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("#{$fontastic-font-path}/untitled-font-1.woff") format("woff"),
+    url("#{$fontastic-font-path}/untitled-font-1.ttf") format("truetype"),
+    url("#{$fontastic-font-path}/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

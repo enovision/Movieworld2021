@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <credits>
+        <credit>
+            <name>TMDb</name>
+            <description>TMDb, open movie database</description>
+            <version>3.0</version>
+            <kudos>This program would not be without them</kudos>
+            <copyright>© 2006-2012 API 3.0 owned by TMDb, Inc.</copyright>
+            <license>Free and open license</license>
+            <website>https://www.themoviedb.org</website>
+        </credit>
+        <credit>
+            <name>Sencha</name>
+            <description>Ext JS</description>
+            <version>6.5.2</version>
+            <kudos>Sencha ExtJS, the most versatile JavaScript Framework</kudos>
+            <copyright>© 2006-2017 Sencha, Inc.</copyright>
+            <license>Open Source GPL 3.0</license>
+            <website>https://www.sencha.com</website>
+        </credit>
+        <credit>
+            <name>CodeIgniter</name>
+            <description>CodeIgniter</description>
+            <version>3.1</version>
+            <kudos>Best PHP framework for our demand</kudos>
+            <copyright>© 2014 - 2017, British Columbia Institute of Technology</copyright>
+            <license>MIT License</license>
+            <website>https://www.codeigniter.com</website>
+        </credit>
+        <credit>
+            <name>jQuery</name>
+            <description>jQuery</description>
+            <version>2</version>
+                <kudos>For the finishing touch on optics</kudos>
+            <copyright>© 2012 The jQuery Project</copyright>
+            <license>GNU General Public License (GPL) Version 2</license>
+            <website>https://www.jquery.com</website>
+        </credit>
+        <credit>
+            <name>fontAwesome</name>
+            <description>Font Awesome</description>
+            <version>4.3.0</version>
+            <kudos>Great glyphs on the panels and buttons</kudos>
+            <copyright>Created by Dave Gandy</copyright>
+            <license>MIT License</license>
+            <website>https://fortawesome.github.io/Font-Awesome/</website>
+        </credit>
+        <credit>
+            <name>Syncfusion</name>
+            <description>Syncfusion Metro</description>
+            <version>5</version>
+            <kudos>Awesome community licensed Icon and Font creation Tool</kudos>
+            <copyright>Syncfusion</copyright>
+            <license>Community License / Royalty Free Icons</license>
+            <website>https://www.syncfusion.com/downloads/metrostudio</website>
+        </credit>
+        <credit>
+            <name>Pure_CSS</name>
+            <description>Pure.CSS</description>
+            <version>0.6.0</version>
+            <kudos>A set of small, responsive CSS modules that you can use in every web project</kudos>
+            <copyright>Yahoo Inc.</copyright>
+            <license>© 2014 Yahoo! Inc. All rights reserved</license>
+            <website>https://purecss.io/</website>
+        </credit>
+        <credit>
+            <name>videojs</name>
+            <description>Videojs, The open source HTML5 video player</description>
+            <version>6.2.5</version>
+            <kudos>Supports the Ext JS videoplayer</kudos>
+            <copyright>Brightcove, Inc.</copyright>
+            <license>Apache License, Version 2.0</license>
+            <website>https://www.videojs.com/</website>
+        </credit>
+    </credits>
+</root>

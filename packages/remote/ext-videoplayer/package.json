@@ -1,0 +1,53 @@
+{
+  "name": "ext-videoplayer",
+  "namespace": "VideoPlayer",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "enovision",
+  "summary": "Videoplayer based on Video.js",
+  "detailedDescription": "Videoplayer based on Video.js",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "enovision",
+      "uuid": "27d42145-5f9b-4f3d-aea5-0664ce5e4595",
+      "created": "2017-11-02T14:35:46Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "g/2Db7OyTpI\u003d",
+      "signature": "ZREiJeIYTUEWPRMM4Ej5Ii/MQeO3JAXhjjLN5eFA1NWvxO6GeYDw1r2Ifd/nFhSQzZjFkEjqAj8zxm81leFY0O+xGJIqg0ZwbUYlRk8ywz3SIHc2Z3M6+FuVK2R1AJ0GDI14bfUPXXlXgwnoHPp4LzORIO+6LJhlvqBH1NZs86FWjraWm/k/1wrEbizlROqc/u6aSJ798x1KuEN0c3iXKrjip1m38RZMVTU5gfllMmu1D3lgPvJzPcLxFuke+awQEKr4iYK8Dv/fgIFuM6ADwsxNv2jMDMt1tnEo71gBtFM3dXcyxaiXaKMYAWKIz6HKPXDObgnItvF/Z44mi05dzA\u003d\u003d"
+    }
+  ],
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "theme": "ext-theme-classic",
+  "framework": "ext",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "VideoPlayer",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src"
+  ]
+}
